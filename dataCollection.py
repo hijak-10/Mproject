@@ -5,8 +5,10 @@ import math
 import time 
 
 detector= HandDetector(maxHands=1)
+nhand=detector.mpHands
 cap= cv2.VideoCapture(0)
-folder = "Data/A"
+
+folder = r"C:\Users\lENOVOO\Desktop\OG Data\ASL Y"
 counter=0
 offset=20
 imgSize=400
